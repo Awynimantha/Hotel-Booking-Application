@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+
+/*header styles*/
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  background-color:rgb(30, 140, 236);
+  height: 100px;
+  align-items: center;
+  padding-left:50px;
+  padding-right:100px;
+  
+
+
+}
+.navbar>ul{
+  display: flex;
+  justify-content: space-between;
+  gap:40px;
+  list-style-type: none;
+  font-size: 24px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar>img{
+  width:200px;
+  height:60px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+/*footer styles*/
+
+.footer{
+  display: flex;
+  
+  background-color: rgb(26, 8, 103);
+  color:aliceblue;
+  gap:120px;
+  height: 100px;
+  padding-top:30px;
+  padding-left:50px;
+  
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*room styles*/
+
+
+.room-main{
+  padding: 100px;
+}
+.room-main img{
+  height:500px;
+  
+  
+  
+}
+
+.room--form{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap:60px;
+}
+
+.room--form input[type="text"]{
+  height:28px;
+  width: 260px;
+  color:rgb(208, 208, 208)
+}
+
+.room--image{
+  display: flex;
+  padding-block: 100px;
+  padding-left: 270px;
+  gap:20px;
+}
+
+.btn{
+  border-radius: 0px;
+  height: 50px;
+  width:100px;
+  background-color: white;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.btn:hover {
+  background-color: blue;
+
+  border: 1px solid blue;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.room-main button{
+  margin-left: 300px;
 }
