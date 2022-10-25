@@ -17,7 +17,9 @@ const Room_view= props=>{
        
         axios.get("http://localhost:5000/api/room/getall").then(respond=>{
             setRooms(respond.data)
-            console.log(rooms)
+            
+            
+            
             
         })
     }

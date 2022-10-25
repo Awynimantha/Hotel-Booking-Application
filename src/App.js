@@ -9,6 +9,7 @@ import AdForm from "./components/ad-form";
 import HotelForm from "./components/hotel-form";
 import Advertisement_view from "./components/ad-view";
 import Advertisement_view_main from "./components/main";
+import Hotel_view from "./components/hotel-view";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="ad-view" element={<Advertisement_view/>}/>
         <Route path="/hotel-form" element={<HotelForm/>}/>
         <Route path="/" element={<Advertisement_view_main/>}/>
+        <Route path="/hotel-view" element={<Hotel_view/>}/>
       </Routes>
       </div>
       <Footer />
