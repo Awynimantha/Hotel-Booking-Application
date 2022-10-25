@@ -3,7 +3,7 @@ import Footer from "./components/footer.component"
 import RoomForm from "./components/room-form";
 import Room_view from "./components/room-view";
 import {Routes,Route,Link} from "react-router-dom"
-
+import RoomUpdate from "./components/room-update";
 
 
 function App() {
@@ -21,6 +21,7 @@ function App() {
       <Routes>
         <Route path="/room-form" element={<RoomForm/>}/>
         <Route  path="/room-view"  element={<Room_view/>}/>
+        <Route path="room-view/room-update" element={<RoomUpdate/>}/>
 
       </Routes>
       </div>
