@@ -1,10 +1,10 @@
 import React, { Component, useEffect, useState } from "react"
 import "../App"
 import {Routes,Route,Link} from "react-router-dom"
-import  roomServices from "../services/roomServices"
+
 import axios from "axios"
 const RoomForm= props =>{
-    const [rooms,setRooms]=useState([])
+   
     const [Hotel_name,setHotel]=useState("")
     const [Facilities,setFacility]=useState("")
     const [Location,setLocation]=useState("")
