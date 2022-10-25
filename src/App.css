@@ -8,6 +8,8 @@
   align-items: center;
   padding-left:50px;
   padding-right:100px;
+ 
+
   
 
 
@@ -18,6 +20,10 @@
   gap:40px;
   list-style-type: none;
   font-size: 24px;
+}
+.navbar li{
+  text-decoration: none;
+  color:white;
 }
 
 .navbar>img{
@@ -37,6 +43,7 @@
   height: 100px;
   padding-top:30px;
   padding-left:50px;
+  margin-top: 670px;
   
 
 }
@@ -60,10 +67,11 @@
   gap:60px;
 }
 
-.room--form input[type="text"]{
+.text{
   height:28px;
   width: 260px;
-  color:rgb(208, 208, 208)
+  color:rgb(208, 208, 208);
+  
 }
 
 .room--image{
@@ -89,4 +97,9 @@
 }
 .room-main button{
   margin-left: 300px;
+}
+
+.room-view--search{
+  display: flex;
+  gap:0px;
 }
